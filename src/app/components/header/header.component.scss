@@ -1,0 +1,26 @@
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    grid-template-columns: 100%;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 40px;
+    position: sticky;
+    top: 0;
+    border:1px solid saddlebrown;
+}
+
+svg{
+    color: var(--crayola);
+    width: 44px;
+    height: 44px;
+}
+
+
+.material-icons{
+    color: red;
+    height: 44px;
+    width: 44px;
+}
