@@ -1,7 +1,7 @@
-<div class="menu">
-    <div class="close">
-        <i class="material-icons">close</i>
-    </div>
+<div class="close">
+    <i class="material-icons" (click)="seeMenu()">drag_handle</i>
+</div>
+<div class="menu" *ngIf="showMenu">
     <div class="first_sec">
         <a routerLink="/myWork" aria-label="my Work">my Work</a>
         <a routerLink="/myResume" aria-label="my Résumé">my Résumé</a>

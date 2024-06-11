@@ -1,15 +1,27 @@
+@keyframes deslizarYRebotar {
+    0% {
+      transform: translateX(100%);
+    }
+    98% {
+      transform: translateX(-2%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
 .menu{
     background-color: white;
     position: absolute;
-    top: 30px;
+    top: 21px;
     right: 70px;
     display: flex;
     flex-direction: column;
     width: 21.31em;
     height: 32.5em;
     color: var(--iris);
-    padding: 1.25em 1.25em 2em 1.25em;
-    
+    padding: 1.25em 1.25em 2em 1.25em;    
+    animation: deslizarYRebotar 0.3s cubic-bezier(0.0, 0.0, 0.2, 1);
 }
 
 .close{
@@ -17,9 +29,16 @@
 }
 .close i{
     font-size: 2.75em;
+    position: absolute;
+    z-index: 5;
+    right: 92px;
+    top: 41px;
+    background-color: inherit;
+    color: var(--iris)
 }
 
 .first_sec{
+    padding-top: 50px;
     height: 39%;
 }
 
@@ -40,6 +59,7 @@
 }
 
 .last_sec{
+    height: 19%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: baseline;
