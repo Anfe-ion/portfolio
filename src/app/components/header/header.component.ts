@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
+  menuVisible = false;
 
+  showMenu(){
+    this.menuVisible = !this.menuVisible;
+  }
 }

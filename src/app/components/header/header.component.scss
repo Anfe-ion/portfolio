@@ -1,5 +1,6 @@
 
 .header{
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -9,18 +10,18 @@
     margin-right: 40px;
     position: sticky;
     top: 0;
-    border:1px solid saddlebrown;
 }
 
-svg{
+i{
     color: var(--crayola);
-    width: 44px;
-    height: 44px;
 }
 
 
 .material-icons{
-    color: red;
-    height: 44px;
-    width: 44px;
+    color: var(--iris);    
+}
+
+.material-icons,
+i{
+    font-size: 44px;
 }
