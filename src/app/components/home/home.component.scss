@@ -1,0 +1,43 @@
+
+.text{
+    padding: 5.06em 0em 4.25em 10em;
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    background-color: var(--iris);
+}
+
+.firstText{
+    margin-bottom: 255px;
+}
+
+.firstText h1{
+    font-size: 3.75em;
+    font-weight: 650;
+    line-height: 1em;
+    color: var(--crayola);
+    padding-bottom: 0.5em;
+}
+
+.firstText p{
+    color: white;
+    font-weight: 500;
+}
+
+.bottomText{
+    display: flex;
+    flex-direction: row;
+    color: var(--crayola);
+}
+
+.image img, .border{
+    position: absolute;
+    width: 21.875em;
+    height: 21.875em;
+}
+
+.border{
+    margin: 1em;
+    border: 2px solid plum;
+}
+

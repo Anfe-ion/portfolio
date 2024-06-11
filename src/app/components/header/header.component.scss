@@ -1,13 +1,12 @@
 
 .header{
-    position: relative;
+    border: 1px solid turquoise;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     grid-template-columns: 100%;
     justify-content: space-between;
-    margin-left: 20px;
-    margin-right: 40px;
+    padding: 30px 70px 0px 50px;
     position: sticky;
     top: 0;
 }
@@ -15,10 +14,10 @@
 i{
     color: var(--crayola);
 }
-
-
 .material-icons{
-    color: var(--iris);    
+    color: var(--iris);
+    margin-top: 17px;
+    margin-right: 18px;    
 }
 
 .material-icons,

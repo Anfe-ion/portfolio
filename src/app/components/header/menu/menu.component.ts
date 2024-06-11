@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './menu.component.scss'
 })
 export class MenuComponent {
+  showMenu = false;
 
+  seeMenu(){
+    this.showMenu = !this.showMenu;
+  }
 }

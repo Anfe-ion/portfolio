@@ -1,12 +1,15 @@
 .menu{
-    position: fixed;
-    z-index: 1000;
+    background-color: white;
+    position: absolute;
+    top: 30px;
+    right: 70px;
     display: flex;
     flex-direction: column;
     width: 21.31em;
     height: 32.5em;
     color: var(--iris);
     padding: 1.25em 1.25em 2em 1.25em;
+    
 }
 
 .close{
