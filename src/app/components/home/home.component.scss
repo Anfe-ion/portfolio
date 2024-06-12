@@ -1,10 +1,16 @@
-
+.principal{
+    position:absolute;
+    top: 0;
+    width: 100%;
+    padding-top: 98px;
+    background: linear-gradient(to right, var(--iris) 60%, var(--crayola) 40%)
+}
 .text{
     padding: 5.06em 0em 4.25em 10em;
     display: flex;
     flex-direction: row;
     flex-direction: column;
-    background-color: var(--iris);
+    background: linear-gradient(to right, var(--iris) 60%, var(--crayola) 40%)
 }
 
 .firstText{
@@ -25,6 +31,8 @@
 }
 
 .bottomText{
+    width: 26.82em;
+    gap: 2.57em;
     display: flex;
     flex-direction: row;
     color: var(--crayola);
@@ -32,12 +40,15 @@
 
 .image img, .border{
     position: absolute;
+    top: 200px;
+    right: 489px;
     width: 21.875em;
     height: 21.875em;
 }
 
 .border{
-    margin: 1em;
-    border: 2px solid var(--iris);
+    margin-top: 1em;
+    margin-right: -1em;
+    border: 2px solid var(--lotion);
 }
 

@@ -1,6 +1,5 @@
 
 .header{
-    border: 1px solid turquoise;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -9,6 +8,7 @@
     padding: 30px 70px 0px 50px;
     position: sticky;
     top: 0;
+    z-index: 5;
 }
 
 i{
