@@ -171,7 +171,6 @@
 }
 
 .contact{
-    border: 2px solid gold;
     position: absolute;
     min-height: 780px;
     min-width: 100%;
@@ -180,23 +179,31 @@
     background-color: var(--magnolia);
 }
 
+.section_contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
 .section_contact h4{
     color: var(--iris);
     font-weight: bold;
     font-size: 3.75em;    
     text-align: center;
-    padding-bottom: 3em;
+    padding-bottom: 1.25em;
 }
 
 .section_contact div:nth-child(2){
     display: grid;
     grid-template-columns: 50% 50%;
-    align-items: self-start;
+    grid-template-rows: auto auto;
+    padding-bottom: 3em;
 }
 
 .section_contact div:nth-child(2) div{
     display: flex;
     flex-direction: column;
+    padding: 1em;
 }
 
 .section_contact p{
@@ -207,7 +214,12 @@
     border:none;
     border-bottom: 1px solid var(--american_purple);
     background: none;
-    padding: 0.5em;
+    padding: 0.5em 0 0.5em 0;
+    min-width: 224px;
+}
+
+.section_contact div:nth-child(2) div:nth-child(3){
+    grid-column: span 2;
 }
 
 .section_contact input:focus{
@@ -222,4 +234,8 @@
 .section_contact button:hover{
     background-color: var(--iris);
     color: white;
+}
+
+a{
+    text-decoration: none;
 }
