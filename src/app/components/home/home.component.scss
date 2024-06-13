@@ -108,27 +108,39 @@
     position: absolute;
     min-height: 780px;
     min-width: 100%;
-    padding: 5.06em 4.25em 4.25em 10em;
     top: 1523.95px;
-    background-color: var(--iris);    
+    background-color: var(--iris);       
+    display: grid;
+    place-items: center;
 }
 
 .exp_text{
+
     display: grid;
-    grid-template-columns: 33% 33% 33%;    
+    grid-template-columns: 33% 33% 33%;
+    place-items: center;
+    min-width: 83%;
+    min-height: 60%;
+}
+
+.exp_text div{
+    min-width: 100%;
+    min-height: 100%;
+    padding-top: 6cqmax;
+    padding-left: 2em;
 }
 
 .exp_text div:nth-child(2){
     border-left: 1px solid var(--crayola);
-    border-right: 1px solid var(--crayola);
-    padding: 0 0 0 2em;
+    border-right: 1px solid var(--crayola);;
 }
 
-.exp_text div:nth-child(3){
-    padding: 0 0 0 2em;
+.exp_text p{
+    padding-bottom: 2em;
 }
 
-.exp_text button{
+.exp_text button,
+.section_contact button{
     display: grid;
     grid-template-columns: 95% 5%;
     background-color: inherit;
@@ -144,7 +156,7 @@
 }
 
 .exp_text button:hover{
-    color: inherit;
+    color: var(--iris);
     background-color: var(--crayola);
 }
 
@@ -164,4 +176,50 @@
     min-height: 780px;
     min-width: 100%;
     top: 2301.95px;
+    padding-top: 8em;
+    background-color: var(--magnolia);
+}
+
+.section_contact h4{
+    color: var(--iris);
+    font-weight: bold;
+    font-size: 3.75em;    
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+.section_contact div:nth-child(2){
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: self-start;
+}
+
+.section_contact div:nth-child(2) div{
+    display: flex;
+    flex-direction: column;
+}
+
+.section_contact p{
+    color: var(--american_purple);
+}
+
+.section_contact input{
+    border:none;
+    border-bottom: 1px solid var(--american_purple);
+    background: none;
+    padding: 0.5em;
+}
+
+.section_contact input:focus{
+    outline: none;
+}
+
+.section_contact button{
+    border: 1px solid var(--iris);
+    color: var(--iris)
+}
+
+.section_contact button:hover{
+    background-color: var(--iris);
+    color: white;
 }
