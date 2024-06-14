@@ -115,7 +115,6 @@
 }
 
 .exp_text{
-
     display: grid;
     grid-template-columns: 33% 33% 33%;
     place-items: center;
@@ -238,4 +237,8 @@
 
 a{
     text-decoration: none;
+}
+
+@media only screen and (min-width: 360px){
+
 }
