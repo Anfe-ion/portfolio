@@ -5,14 +5,15 @@
     height: 162px;
     background-color: var(--iris);
     color: var(--crayola);
-    font-size: 14px
+    font-size: 0.875em;
+    padding: 1.875em;
 }
 
 .footer div{
-    border: 1px solid red;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
+
 
 .footer div div{
     display: flex;
@@ -20,5 +21,20 @@
 }
 
 .footer p{
-    color: var(--lotion)
+    color: var(--lotion);
+    letter-spacing: .3em;
+    padding-bottom: 1em;
+}
+
+.footer div:nth-child(3){
+    grid-column: span 2;
+    text-align: center;
+    padding-top: 1em;
+    font-size: 0.8em;
+}
+
+.footer_copy{
+    color: var(--crayola) !important;
+    font-style: italic;
+    letter-spacing: normal !important;
 }
