@@ -1,0 +1,157 @@
+{
+  "angularProjects": [
+    {
+      "name": "yellowCat",
+      "url": "asufasufF"
+    }
+  ],
+  "figmaPrototypes": [
+    {
+      "name": "portfolio",
+      "url": "https://www.figma.com/design/YRE5yqJrG5qLSnnG79uqkn/Portfolio?node-id=1-2&t=hhzX9GYc1ULTLRsI-1"
+    },
+    {
+      "name": "Workout Register",
+      "url": "https://www.figma.com/design/yI1LaELOh7H02I9dCZZOJo/Workout-Register?node-id=0-1&t=54LAN8i4jmi8Lpqy-1"
+    },
+    {
+      "name": "San Ciro",
+      "url": "https://www.figma.com/design/HoMryC4FufRwJVqru36dXW/San-Ciro?node-id=0-1&t=90pIXNDtiklIMXPL-1"
+    }
+  ],
+  "skills": [
+    { "name": "Angular" },
+    { "name": "TypeScript" },
+    { "name": "JavaScript" },
+    { "name": "CSS3" },
+    { "name": "SASS" },
+    { "name": "Bootstrap" },
+    { "name": "TailwindCSS" },
+    { "name": "Angular Material" },
+    { "name": "MySQL" },
+    { "name": "SQLServer" },
+    { "name": "JSON" },
+    { "name": "Git" },
+    { "name": "Github" },
+    { "name": "NPM" },
+    { "name": "Yarn" },
+    { "name": "UX Design" },
+    { "name": "UI Design" },
+    { "name": "WCAG 2" },
+    { "name": "Accesible Web Design" },
+    { "name": "Figma" },
+    { "name": "Adobe Photoshop" },
+    { "name": "Trello" },
+    { "name": "Jira" },
+    { "name": "English" },
+    { "name": "Spanish" },
+    { "name": "Excel" },
+    { "name": "PowerBI" },
+    { "name": "PowerPoint" },
+    { "name": "Office Package" }
+  ],
+  "education": [
+    {
+      "name": "Industrial Engineer",
+      "university": "ECCI University",
+      "status": "Completed"
+    },
+    {
+      "name": "Technologist in Software Analysis and Development",
+      "university": "SENA",
+      "status": "Completed"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "English Certificate (B2 Upper Intermediate)",
+      "university": "EF SET",
+      "status": "Completed",
+      "day": "23",
+      "month": "01",
+      "year": "2023",
+      "url": "https://cert.efset.org/1E3kLQ"
+    },
+    {
+      "name": "Beginner in Programming",
+      "university": "Alura | Oracle",
+      "status": "Completed",
+      "day": "08",
+      "month": "06",
+      "year": "2022",
+      "url": "https://app.aluracursos.com/degree/certificate/856909d8-e8e0-4d64-b7d2-072e8f9e289d"
+    },
+    {
+      "name": "Front End Training",
+      "university": "Alura | Oracle",
+      "status": "Completed",
+      "day": "28",
+      "month": "07",
+      "year": "2022",
+      "url": "https://app.aluracursos.com/degree/certificate/698317c7-629d-4be3-8af1-8530ffea0f6e"
+    },
+    {
+      "name": "Java Object-Oriented Training",
+      "university": "Alura | Oracle",
+      "status": "Completed",
+      "day": "05",
+      "month": "09",
+      "year": "2022",
+      "url": "https://app.aluracursos.com/degree/certificate/698317c7-629d-4be3-8af1-8530ffea0f6e"
+    },
+    {
+      "name": "SQL with SQLServer",
+      "university": "Alura | Oracle",
+      "status": "Completed",
+      "day": "14",
+      "month": "12",
+      "year": "2022",
+      "url": "https://app.aluracursos.com/degree/certificate/ac9e9a4f-81ad-43d4-b7af-bf4820430c5e"
+    },
+    {
+      "name": "Python, Data Science in OCI and Oracle Analytics",
+      "university": "Alura | Oracle",
+      "status": "Completed",
+      "day": "04",
+      "month": "01",
+      "year": "2023",
+      "url": "https://app.aluracursos.com/degree/certificate/a409b861-f100-43eb-a636-88b6e0a826e7"
+    },
+    {
+      "name": "Introduction to Databases for Back-End Development",
+      "university": "Meta",
+      "status": "Completed",
+      "day": "06",
+      "month": "25",
+      "year": "2024",
+      "url": "https://coursera.org/share/813b3e77ecd76ff1d0e5a414403b15d2"
+    },
+    {
+      "name": "Introduction to Back-end Development",
+      "university": "Meta",
+      "status": "Completed",
+      "day": "06",
+      "month": "04",
+      "year": "2024",
+      "url": "https://coursera.org/share/10b64527b7e30c7abd209cda3222acd8"
+    },
+    {
+      "name": "Django Web Framework",
+      "university": "Meta",
+      "status": "Completed",
+      "day": "01",
+      "month": "08",
+      "year": "2024",
+      "url": "https://coursera.org/share/f5aacb367515234fafd0c03e39796d6a"
+    },
+    {
+      "name": "How to Solve Problems and Make Decisions Effectively",
+      "university": "University of Calofornia",
+      "status": "Completed",
+      "day": "17",
+      "month": "06",
+      "year": "2024",
+      "url": "https://coursera.org/share/7afb858dfd454cddffd2150780f2e054"
+    }
+  ]
+}

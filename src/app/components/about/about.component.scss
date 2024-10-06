@@ -1,0 +1,13 @@
+div {
+  background-color: var(--background);
+  color: var(--headline);
+  padding: 4.1875em 1.6875em 4.0625em 1.6875em;
+  h2 {
+    padding-top: 1em;
+    font-size: 1em;
+    font-weight: 300;
+    span {
+      color: var(--button);
+    }
+  }
+}
