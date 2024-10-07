@@ -2,7 +2,7 @@
   "angularProjects": [
     {
       "name": "yellowCat",
-      "url": "asufasufF"
+      "url": "https://github.com/Anfe-ion/yellowCatv2"
     }
   ],
   "figmaPrototypes": [
@@ -152,6 +152,15 @@
       "month": "06",
       "year": "2024",
       "url": "https://coursera.org/share/7afb858dfd454cddffd2150780f2e054"
+    },
+    {
+      "name": "Google UX Design Professional Certificate",
+      "university": "Google",
+      "status": "Ongoing",
+      "day": "01",
+      "month": "01",
+      "year": "2100",
+      "url": ""
     }
   ]
 }

@@ -7,10 +7,10 @@ import { DataService } from '../../services/data.service';
   styleUrl: './projects.component.scss'
 })
 export class ProjectsComponent implements OnInit {
-
   data:any
 
   constructor(private dataService: DataService){}
+
   ngOnInit(): void {
     this.getData()
   }
@@ -24,7 +24,10 @@ export class ProjectsComponent implements OnInit {
       console.log(this.data.skills)
       console.log(this.data.education)
       console.log(this.data.certifications)
-
     })
+  }
+
+  navigateTo(url:string){
+    window.open(url, '_blank');
   }
 }

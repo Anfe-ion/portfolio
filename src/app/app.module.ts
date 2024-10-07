@@ -13,6 +13,7 @@ import { EducationComponent } from './components/education/education.component';
 import { MatIconModule } from '@angular/material/icon';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { HttpClientModule } from '@angular/common/http';
+import { PrototypesComponent } from './components/cards/prototypes/prototypes.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { HttpClientModule } from '@angular/common/http';
     ProjectsComponent,
     ContactComponent,
     FooterComponent,
-    EducationComponent
+    EducationComponent,
+    PrototypesComponent
   ],
   imports: [
     BrowserModule,

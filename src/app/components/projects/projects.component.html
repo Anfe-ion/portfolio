@@ -1,9 +1,11 @@
-<div>
+<div class="body">
     <h3>My Angular Projects</h3>
     <div class="projects">
-        <div class="card">
-            <img src="" alt="yellowCat Project">
+        <div *ngFor="let card of data.angularProjects" class="project-item">
+            <div class="card" (click)="navigateTo(card.url)">
+                <img src="assets/images/angularProjects/{{ card.name }}.webp" alt="{{ card.name }} Project">
+            </div>
+            <p>{{card.name}}</p>
         </div>
-        <p>yellowCat</p>
     </div>
 </div>
