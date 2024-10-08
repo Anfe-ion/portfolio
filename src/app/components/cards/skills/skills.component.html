@@ -1,1 +1,11 @@
-<p>skills works!</p>
+<div class="body">
+    <h3>My Skills</h3>
+    <div class="projects">
+        <div *ngFor="let card of data.skills" class="project-item">
+            <div class="card">
+                <img src="assets/images/skills/{{card.name}}.webp" alt="{{card.name}} Logo">
+            </div>
+            <p>{{card.name}}</p>
+        </div>
+    </div>
+</div>

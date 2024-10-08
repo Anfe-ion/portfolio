@@ -1,1 +1,11 @@
-<p>prototypes works!</p>
+<div class="body">
+    <h3>My Figma Prototypes</h3>
+    <div class="projects">
+        <div *ngFor="let card of data.figmaPrototypes" class="project-item">
+            <div class="card" (click)="navigateTo(card.url)">
+                <img src="assets/images/figmaPrototypes/figma.webp" alt="Figma Logo">
+            </div>
+            <p>{{card.name}}</p>
+        </div>
+    </div>
+</div>

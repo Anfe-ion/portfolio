@@ -7,7 +7,7 @@
   ],
   "figmaPrototypes": [
     {
-      "name": "portfolio",
+      "name": "Portfolio",
       "url": "https://www.figma.com/design/YRE5yqJrG5qLSnnG79uqkn/Portfolio?node-id=1-2&t=hhzX9GYc1ULTLRsI-1"
     },
     {
@@ -24,31 +24,23 @@
     { "name": "TypeScript" },
     { "name": "JavaScript" },
     { "name": "CSS3" },
-    { "name": "SASS" },
-    { "name": "Bootstrap" },
-    { "name": "TailwindCSS" },
-    { "name": "Angular Material" },
+    { "name": "Sass" },
     { "name": "MySQL" },
-    { "name": "SQLServer" },
-    { "name": "JSON" },
+    { "name": "SQL Server" },
     { "name": "Git" },
     { "name": "Github" },
-    { "name": "NPM" },
-    { "name": "Yarn" },
-    { "name": "UX Design" },
-    { "name": "UI Design" },
-    { "name": "WCAG 2" },
-    { "name": "Accesible Web Design" },
+    { "name": "npm" },
+    { "name": "yarn" },
+    { "name": "WCAG" },
     { "name": "Figma" },
     { "name": "Adobe Photoshop" },
     { "name": "Trello" },
     { "name": "Jira" },
-    { "name": "English" },
-    { "name": "Spanish" },
     { "name": "Excel" },
-    { "name": "PowerBI" },
+    { "name": "Power BI" },
     { "name": "PowerPoint" },
-    { "name": "Office Package" }
+    { "name": "English" },
+    { "name": "Spanish" }
   ],
   "education": [
     {
