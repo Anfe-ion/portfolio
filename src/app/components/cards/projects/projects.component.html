@@ -1,11 +1,20 @@
 <div class="body">
-    <h3>Code Projects</h3>
+    <h2>Code Projects</h2>
     <div class="projects">
-        <div *ngFor="let card of data?.angularProjects" class="project-item">
+        <div *ngFor="let card of data?.codeProjects; let i = index" class="project-item">
             <div class="card" (click)="navigateTo(card.url)">
-                <img src="assets/images/angularProjects/{{ card.name }}.webp" alt="{{ card.name }} Project">
+                <p class="index">0{{i + 1}}</p>
+                <div>
+                    <img src="/assets/images/codeProjects/{{card.name}}.webp"
+                        alt="{{card.name}} project previsualization">
+                </div>
+                <div>
+                    <p class="category">{{card.category}}</p>
+                    <h3>{{card.name}}</h3>
+                    <p class="description">{{card.description}}</p>
+                    <p class="status">{{card.status}}</p>
+                </div>
             </div>
-            <p>{{card.name}}</p>
         </div>
     </div>
 </div>

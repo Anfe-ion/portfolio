@@ -13,21 +13,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--headline);
+    background-color: var(--primary);
+    color: var(--background);
     cursor: pointer;
+    padding: 0.25em 0 0.25em 0;
     p {
-      color: var(--background);
-      font-weight: bold;
-      font-size: 0.75em;
+      font-family: Consolas, monaco, monospace;
+      font-size: 0.8em;
     }
   }
 
+  div:active,
   div:hover {
-    background-color: var(--secondary);
-  }
-
-  div:active {
     background-color: var(--background);
-    color: var(--headline);
+    color: var(--primary);
+    text-decoration: underline;
   }
 }

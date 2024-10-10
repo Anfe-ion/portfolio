@@ -1,1 +1,52 @@
-@import url("../basestyles.scss");
+.body {
+  background-color: var(--secondary);
+  padding: 1em 1.6875em 1em 1.6875em;
+  h2 {
+    text-align: center;
+  }
+  .card {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 1em;
+    h3:hover {
+      text-decoration: underline;
+    }
+    img {
+      width: 99%;
+      border-radius: 1.5em;
+      box-shadow: 0.25em 0.25em 0em 0 var(--primary);
+    }
+    .category,
+    .index {
+      font-family: Consolas, monaco, monospace;
+      color: var(--primary);
+    }
+
+    .category {
+      font-size: 0.65em;
+      font-weight: bold;
+      padding-top: 0.75em;
+    }
+
+    .index {
+      font-size: 1.25em;
+      padding: 0.5em 0 0.5em 0;
+    }
+
+    h3 {
+      font-size: 1.25em;
+      font-weight: bold;
+    }
+
+    .description {
+      font-size: 0.75em;
+      text-align: justify;
+      padding: 0.5em 0 0.5em 0em;
+    }
+
+    .status {
+      font-size: 0.75em;
+      color: var(--primary);
+    }
+  }
+}
