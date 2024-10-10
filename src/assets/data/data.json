@@ -1,22 +1,36 @@
 {
   "angularProjects": [
     {
-      "name": "yellowCat",
-      "url": "https://github.com/Anfe-ion/yellowCatv2"
+      "name": "yellowCat v1.0",
+      "description": "",
+      "url": "https://github.com/Anfe-ion/yellowCatv2",
+      "status": "Ongoing"
+    },
+    {
+      "name": "yellowCat v2.0",
+      "description": "",
+      "url": "https://github.com/Anfe-ion/yellowCatv2",
+      "status": "Ongoing"
     }
   ],
   "figmaPrototypes": [
     {
       "name": "Portfolio",
-      "url": "https://www.figma.com/design/YRE5yqJrG5qLSnnG79uqkn/Portfolio?node-id=1-2&t=hhzX9GYc1ULTLRsI-1"
+      "description": "",
+      "url": "https://www.figma.com/design/YRE5yqJrG5qLSnnG79uqkn/Portfolio?node-id=1-2&t=hhzX9GYc1ULTLRsI-1",
+      "status": "Completed"
     },
     {
       "name": "Workout Register",
-      "url": "https://www.figma.com/design/yI1LaELOh7H02I9dCZZOJo/Workout-Register?node-id=0-1&t=54LAN8i4jmi8Lpqy-1"
+      "description": "",
+      "url": "https://www.figma.com/design/yI1LaELOh7H02I9dCZZOJo/Workout-Register?node-id=0-1&t=54LAN8i4jmi8Lpqy-1",
+      "status": "Ongoing"
     },
     {
       "name": "San Ciro",
-      "url": "https://www.figma.com/design/HoMryC4FufRwJVqru36dXW/San-Ciro?node-id=0-1&t=90pIXNDtiklIMXPL-1"
+      "description": "",
+      "url": "https://www.figma.com/design/HoMryC4FufRwJVqru36dXW/San-Ciro?node-id=0-1&t=90pIXNDtiklIMXPL-1",
+      "status": "Ongoing"
     }
   ],
   "skills": [
@@ -66,7 +80,7 @@
     },
     {
       "name": "Beginner in Programming",
-      "university": "Alura | Oracle",
+      "university": "Alura & Oracle",
       "status": "Completed",
       "day": "08",
       "month": "06",
@@ -75,7 +89,7 @@
     },
     {
       "name": "Front End Training",
-      "university": "Alura | Oracle",
+      "university": "Alura & Oracle",
       "status": "Completed",
       "day": "28",
       "month": "07",
@@ -84,7 +98,7 @@
     },
     {
       "name": "Java Object-Oriented Training",
-      "university": "Alura | Oracle",
+      "university": "Alura & Oracle",
       "status": "Completed",
       "day": "05",
       "month": "09",
@@ -93,7 +107,7 @@
     },
     {
       "name": "SQL with SQLServer",
-      "university": "Alura | Oracle",
+      "university": "Alura & Oracle",
       "status": "Completed",
       "day": "14",
       "month": "12",
@@ -102,7 +116,7 @@
     },
     {
       "name": "Python, Data Science in OCI and Oracle Analytics",
-      "university": "Alura | Oracle",
+      "university": "Alura & Oracle",
       "status": "Completed",
       "day": "04",
       "month": "01",

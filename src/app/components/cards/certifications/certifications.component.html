@@ -1,1 +1,12 @@
-<p>certifications works!</p>
+<div class="body">
+    <h3>Certifications</h3>
+    <div class="projects">
+        <div *ngFor="let card of data?.certifications" class="project-item">
+            <div class="card" (click)="navigateTo(card.url)">
+                <img src="assets/images/certifications/{{card.university}}.webp" alt="{{card.university}} Logo">
+            </div>
+            <p>{{card.name}}</p>
+            <p>{{card.status}}</p>
+        </div>
+    </div>
+</div>

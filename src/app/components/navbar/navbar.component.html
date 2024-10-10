@@ -1,22 +1,17 @@
 <div class="navbar">
-    <div class="skills">
-        <mat-icon>grade</mat-icon>
-        <p>Skills</p>
+    <div>
+        <p (click)="scrollTo('about')">About</p>
     </div>
-    <div class="projects">
-        <mat-icon>work</mat-icon>
-        <p>Projects</p>
+    <div>
+        <p (click)="scrollTo('projects')">Projects</p>
     </div>
-    <div class="about">
-        <mat-icon>account_circle</mat-icon>
-        <p>About</p>
+    <div>
+        <p (click)="scrollTo('skills')">Skills</p>
     </div>
-    <div class="education">
-        <mat-icon>school</mat-icon>
-        <p>Education</p>
+    <div>
+        <p (click)="scrollTo('education')">Education</p>
     </div>
-    <div class="contact">
-        <mat-icon>mail</mat-icon>
-        <p>Contact</p>
+    <div>
+        <p (click)="scrollTo('contact')">Contact</p>
     </div>
 </div>

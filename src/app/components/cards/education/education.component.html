@@ -1,1 +1,12 @@
-<p>education works!</p>
+<div class="body">
+    <h3>Education</h3>
+    <div class="projects">
+        <div *ngFor="let card of data?.education" class="project-item">
+            <div class="card">
+                <img src="assets/images/education/{{card.university}}.webp" alt="{{card.university}} Logo">
+            </div>
+            <p>{{card.name}}</p>
+            <p>{{card.status}}</p>
+        </div>
+    </div>
+</div>
