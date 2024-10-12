@@ -1,1 +1,8 @@
 @import url("../basestyles.scss");
+
+.card {
+  background-color: var(--background) !important;
+}
+h3 {
+  padding: 1em;
+}

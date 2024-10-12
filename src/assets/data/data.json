@@ -24,13 +24,13 @@
     },
     {
       "name": "Workout Register",
-      "description": "A prototype for an app for gym workout daily register.",
+      "description": "A prototype for an app to register daily gym workouts.",
       "url": "https://www.figma.com/design/yI1LaELOh7H02I9dCZZOJo/Workout-Register?node-id=0-1&t=54LAN8i4jmi8Lpqy-1",
       "status": "In process"
     },
     {
       "name": "San Ciro",
-      "description": "",
+      "description": "A web prototype for making reservations on a synthetic football pitch.",
       "url": "https://www.figma.com/design/HoMryC4FufRwJVqru36dXW/San-Ciro?node-id=0-1&t=90pIXNDtiklIMXPL-1",
       "status": "In process"
     }
@@ -129,8 +129,8 @@
       "name": "Introduction to Databases for Back-End Development",
       "university": "Meta",
       "status": "Completed",
-      "day": "06",
-      "month": "25",
+      "day": "25",
+      "month": "06",
       "year": "2024",
       "url": "https://coursera.org/share/813b3e77ecd76ff1d0e5a414403b15d2"
     },

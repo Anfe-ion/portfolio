@@ -1,1 +1,14 @@
 @import url("../basestyles.scss");
+
+.body{
+  background-color: var(--background);
+}
+.card {
+  background-color: var(--secondary) !important;
+}
+h3 {
+  padding: 1em;
+}
+.name{
+  text-decoration: underline;
+}

@@ -1,8 +1,13 @@
-@import url("../basestyles.scss");
+@import url("../projects/projects.component.scss");
 
 .body{
-    background-color: var(--headline);
-    .card{
-        background-color: var(--background) !important;
-    }    
+    background-color: var(--background);
+
+    .index, h3, .description, .status{
+        text-align: right !important;
+    }
+
+    h3{
+        padding-top: 1em;
+    }
 }

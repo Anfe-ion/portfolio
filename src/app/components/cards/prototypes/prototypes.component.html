@@ -1,11 +1,19 @@
 <div class="body">
-    <h3>Prototypes</h3>
+    <h2>Prototypes</h2>
     <div class="projects">
-        <div *ngFor="let card of data?.figmaPrototypes" class="project-item">
+        <div *ngFor="let card of data?.figmaPrototypes; let i = index" class="project-item">
             <div class="card" (click)="navigateTo(card.url)">
-                <img src="assets/images/figmaPrototypes/figma.webp" alt="Figma Logo">
+                <p class="index">0{{i + 1}}</p>
+                <div>
+                    <img src="/assets/images/figmaPrototypes/{{card.name}}.webp"
+                        alt="{{card.name}} project previsualization">
+                </div>
+                <div>
+                    <h3>{{card.name}}</h3>
+                    <p class="description">{{card.description}}</p>
+                    <p class="status">{{card.status}}</p>
+                </div>
             </div>
-            <p>{{card.name}}</p>
         </div>
     </div>
 </div>

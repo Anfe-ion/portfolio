@@ -6,12 +6,23 @@
   align-items: center;
   padding: 0em 1.6875em 0.5em 1.6875em;
 
+  h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+    color: var(--primary);
+  }
+
   .projects {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(5.625em, 1fr));
     gap: 0.5em;
     width: 100%;
     padding-bottom: 1em;
+
+    .status{
+      color: var(--primary);
+      font-family: Consolas, monaco, monospace;
+    }
 
     .project-item {
       display: flex;
@@ -49,7 +60,6 @@
       p {
         margin-top: 0.75em;
         font-size: 0.75em;
-        font-weight: bold;
       }
     }
   }

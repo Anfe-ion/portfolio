@@ -36,6 +36,7 @@
     h3 {
       font-size: 1.25em;
       font-weight: bold;
+      text-decoration: underline;
     }
 
     .description {
@@ -47,6 +48,7 @@
     .status {
       font-size: 0.75em;
       color: var(--primary);
+      font-family: Consolas, monaco, monospace;
     }
   }
 }
