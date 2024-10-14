@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,7 +14,6 @@ import { ProjectsComponent } from './components/cards/projects/projects.componen
 import { SkillsComponent } from './components/cards/skills/skills.component';
 import { EducationComponent } from './components/cards/education/education.component';
 
-import { MatIconModule } from '@angular/material/icon';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { HttpClientModule } from '@angular/common/http';
 import { CertificationsComponent } from './components/cards/certifications/certifications.component';
@@ -34,8 +35,8 @@ import { CommonModule } from '@angular/common';
   imports: [
     CommonModule,
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
-    MatIconModule,
     HttpClientModule
   ],
   providers: [
