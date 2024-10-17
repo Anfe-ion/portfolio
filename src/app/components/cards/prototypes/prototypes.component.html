@@ -1,5 +1,5 @@
 <div class="body">
-    <h2>Prototypes</h2>
+    <h2>{{ 'PROTOTYPES' | translate}}</h2>
     <div class="projects">
         <div *ngFor="let card of data?.figmaPrototypes; let i = index" class="project-item">
             <div class="card" (click)="navigateTo(card.url)">

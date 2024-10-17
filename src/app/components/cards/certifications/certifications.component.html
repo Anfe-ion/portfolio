@@ -1,5 +1,5 @@
 <div class="body">
-    <h3>Certifications</h3>
+    <h2>{{ 'CERTIFICATIONS' | translate}}</h2>
     <div class="projects">
         <div *ngFor="let card of data?.certifications" class="project-item">
             <div class="card" (click)="navigateTo(card.url)">

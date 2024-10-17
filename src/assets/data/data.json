@@ -1,40 +1,4 @@
-{
-  "codeProjects": [
-    {
-      "name": "yellowCat v1.0",
-      "description": "A responsive layout for an e-bike store.",
-      "category": "HTML, CSS & JS Vanilla",
-      "url": "https://anfe-ion.github.io/yellowCat/",
-      "status": "Completed"
-    },
-    {
-      "name": "yellowCat v2.0",
-      "description": "An e-bike store developed with Angular for the frontend and .NET for the backend. It features authentication, security, and administrative roles.",
-      "category": "Angular 17 & .Net",
-      "url": "https://github.com/Anfe-ion/yellowCatv2",
-      "status": "In process"
-    }
-  ],
-  "figmaPrototypes": [
-    {
-      "name": "Portfolio",
-      "description": "The prototype for this web portfolio.",
-      "url": "https://www.figma.com/design/YRE5yqJrG5qLSnnG79uqkn/Portfolio?node-id=1-2&t=hhzX9GYc1ULTLRsI-1",
-      "status": "Completed"
-    },
-    {
-      "name": "Workout Register",
-      "description": "A prototype for an app to register daily gym workouts.",
-      "url": "https://www.figma.com/design/yI1LaELOh7H02I9dCZZOJo/Workout-Register?node-id=0-1&t=54LAN8i4jmi8Lpqy-1",
-      "status": "In process"
-    },
-    {
-      "name": "San Ciro",
-      "description": "A web prototype for making reservations on a synthetic football pitch.",
-      "url": "https://www.figma.com/design/HoMryC4FufRwJVqru36dXW/San-Ciro?node-id=0-1&t=90pIXNDtiklIMXPL-1",
-      "status": "In process"
-    }
-  ],
+
   "skills": [
     { "name": "Angular" },
     { "name": "TypeScript" },
