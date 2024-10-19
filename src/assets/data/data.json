@@ -1,18 +1,18 @@
 {
   "codeProjects": [
     {
-      "name": "codeProjects.yellowCatV1",
-      "description": "codeProjects.yellowCatV1Desc",
-      "category": "codeProjects.categoryHTMLCSSJS",
+      "name": "yellowCat v1.0",
+      "description": "A responsive layout for an e-bike store.",
+      "category": "HTML, CSS & JS Vanilla",
       "url": "https://anfe-ion.github.io/yellowCat/",
-      "status": "codeProjects.completed"
+      "status": "Completed"
     },
     {
-      "name": "codeProjects.yellowCatV2",
-      "description": "codeProjects.yellowCatV2Desc",
-      "category": "codeProjects.categoryAngularDotNet",
+      "name": "yellowCat v2.0",
+      "description": "An e-bike store developed with Angular for the frontend and .NET for the backend. It features authentication, security, and administrative roles.",
+      "category": "Angular 17 & .Net",
       "url": "https://github.com/Anfe-ion/yellowCatv2",
-      "status": "codeProjects.inProcess"
+      "status": "In process"
     }
   ],
   "figmaPrototypes": [
@@ -24,15 +24,15 @@
     },
     {
       "name": "Workout Register",
-      "description": "A prototype for an app to register daily gym workouts.",
+      "description": "A prototype for an app for gym workout daily register.",
       "url": "https://www.figma.com/design/yI1LaELOh7H02I9dCZZOJo/Workout-Register?node-id=0-1&t=54LAN8i4jmi8Lpqy-1",
-      "status": "In progress"
+      "status": "In process"
     },
     {
       "name": "San Ciro",
-      "description": "A web prototype for making reservations on a synthetic football pitch.",
+      "description": "",
       "url": "https://www.figma.com/design/HoMryC4FufRwJVqru36dXW/San-Ciro?node-id=0-1&t=90pIXNDtiklIMXPL-1",
-      "status": "In progress"
+      "status": "In process"
     }
   ],
   "skills": [
@@ -129,8 +129,8 @@
       "name": "Introduction to Databases for Back-End Development",
       "university": "Meta",
       "status": "Completed",
-      "day": "25",
-      "month": "06",
+      "day": "06",
+      "month": "25",
       "year": "2024",
       "url": "https://coursera.org/share/813b3e77ecd76ff1d0e5a414403b15d2"
     },
@@ -164,16 +164,7 @@
     {
       "name": "Google UX Design Professional Certificate",
       "university": "Google",
-      "status": "In progress",
-      "day": "01",
-      "month": "01",
-      "year": "2100",
-      "url": ""
-    },
-    {
-      "name": "Microsoft Power BI Data Analyst Professional Certificate",
-      "university": "Microsoft",
-      "status": "In progress",
+      "status": "In process",
       "day": "01",
       "month": "01",
       "year": "2100",

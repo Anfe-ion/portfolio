@@ -17,9 +17,9 @@
 
   "codeProjects": {
     "title": "Proyectos de Código",
-    "yellowCatV1": "YellowCat v1.0",
+    "yellowCatV1": "yellowCat v1.0",
     "yellowCatV1Desc": "Un diseño responsivo para una tienda de bicicletas eléctricas.",
-    "yellowCatV2": "YellowCat v2.0",
+    "yellowCatV2": "yellowCat v2.0",
     "yellowCatV2Desc": "Una tienda de bicicletas eléctricas desarrollada con Angular para el frontend y .NET para el backend. Incluye autenticación, seguridad y roles administrativos.",
     "categoryHTMLCSSJS": "HTML, CSS y JS Vanilla",
     "categoryAngularDotNet": "Angular 17 y .Net",
