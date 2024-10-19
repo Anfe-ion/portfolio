@@ -1,5 +1,6 @@
 import { Directive, OnInit } from "@angular/core";
 import { DataService } from "../../services/data.service";
+import { TranslateService } from "@ngx-translate/core";
 
 
 @Directive() //Para que sirva la clase
@@ -12,7 +13,7 @@ export abstract class ServiceComponent implements OnInit {
         this.getData()
     }
 
-    constructor(protected dataService: DataService) { }
+    constructor(protected dataService: DataService, protected translate: TranslateService) { }
 
     getData() {
         this.dataService.getdata().subscribe((response) => {

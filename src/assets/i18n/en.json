@@ -15,22 +15,18 @@
   "PROJECTS": "Projects",
   "CONTACT": "Contact",
 
-  "codeProjects": [
-    {
-      "project_name": "yellowCat v1.0",
-      "project_description": "A responsive layout for an e-bike store.",
-      "project_category": "HTML, CSS & JS Vanilla",
-      "project_url": "https://anfe-ion.github.io/yellowCat/",
-      "project_status": "Completed"
-    },
-    {
-      "project_name": "yellowCat v2.0",
-      "project_description": "An e-bike store developed with Angular for the frontend and .NET for the backend. It features authentication, security, and administrative roles.",
-      "project_category": "Angular 17 & .Net",
-      "project_url": "https://github.com/Anfe-ion/yellowCatv2",
-      "project_status": "In process"
-    }
-  ],
+  "codeProjects": {
+    "title": "Code Projects",
+    "yellowCatV1": "YellowCat v1.0",
+    "yellowCatV1Desc": "A responsive layout for an e-bike store.",
+    "yellowCatV2": "YellowCat v2.0",
+    "yellowCatV2Desc": "An e-bike store developed with Angular for the frontend and .NET for the backend. It features authentication, security, and administrative roles.",
+    "categoryHTMLCSSJS": "HTML, CSS & JS Vanilla",
+    "categoryAngularDotNet": "Angular 17 & .Net",
+    "completed": "Completed",
+    "inProcess": "In process"
+  },
+  
   "figmaPrototypes": [
     {
       "proto_name": "Portfolio",
@@ -199,18 +195,18 @@
   "contact": [
     {
       "name": "Linkedin",
-      "description": "Andrés Moncada",
-      "url": "https://www.linkedin.com/in/andresfmc/"
+      "description": "#",
+      "url": "https://www.linkedin.com/in/#"
     },
     {
       "name": "Mail",
-      "description": "andres.moncada.c@gmail.com",
-      "url": "mailto:andres.moncada.c@gmail.com"
+      "description": "#",
+      "url": "mailto:#"
     },
     {
       "name": "Whatsapp",
-      "description": "+57 319 235 1338",
-      "url": "wa.me/573192351338"
+      "description": "#",
+      "url": "wa.me/#"
     }
   ]
 }

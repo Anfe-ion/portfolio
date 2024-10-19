@@ -5,14 +5,14 @@
             <div class="card" (click)="navigateTo(card.url)">
                 <p class="index">0{{ i + 1 }}</p>
                 <div>
-                    <img src="/assets/images/codeProjects/{{card.name}}.webp"
-                        alt="{{card.name}} project preview">
+                    <img src="/assets/images/codeProjects/{{ card.name | lowercase }}.webp"
+                        alt="{{ card.name | translate }} project preview">
                 </div>
                 <div>
-                    <p class="category">{{ card.category }}</p>
-                    <h3>{{ card.name }}</h3>
-                    <p class="description">{{ card.description }}</p>
-                    <p class="status">{{ card.status }}</p>
+                    <p class="category">{{ card.category | translate }}</p>
+                    <h3>{{ card.name | translate }}</h3>
+                    <p class="description">{{ card.description | translate }}</p>
+                    <p class="status">{{ card.status | translate }}</p>
                 </div>
             </div>
         </div>

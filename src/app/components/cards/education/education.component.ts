@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { ServiceComponent } from '../service.component';
 import { DataService } from '../../../services/data.service';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-education',
@@ -9,7 +10,7 @@ import { DataService } from '../../../services/data.service';
 })
 export class EducationComponent extends ServiceComponent {
 
-  constructor(dataService: DataService) {
-    super(dataService);
+  constructor(dataService: DataService, translate: TranslateService) {
+    super(dataService, translate);
   }
 }

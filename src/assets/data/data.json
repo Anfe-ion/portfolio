@@ -1,4 +1,40 @@
-
+{
+  "codeProjects": [
+    {
+      "name": "codeProjects.yellowCatV1",
+      "description": "codeProjects.yellowCatV1Desc",
+      "category": "codeProjects.categoryHTMLCSSJS",
+      "url": "https://anfe-ion.github.io/yellowCat/",
+      "status": "codeProjects.completed"
+    },
+    {
+      "name": "codeProjects.yellowCatV2",
+      "description": "codeProjects.yellowCatV2Desc",
+      "category": "codeProjects.categoryAngularDotNet",
+      "url": "https://github.com/Anfe-ion/yellowCatv2",
+      "status": "codeProjects.inProcess"
+    }
+  ],
+  "figmaPrototypes": [
+    {
+      "name": "Portfolio",
+      "description": "The prototype for this web portfolio.",
+      "url": "https://www.figma.com/design/YRE5yqJrG5qLSnnG79uqkn/Portfolio?node-id=1-2&t=hhzX9GYc1ULTLRsI-1",
+      "status": "Completed"
+    },
+    {
+      "name": "Workout Register",
+      "description": "A prototype for an app to register daily gym workouts.",
+      "url": "https://www.figma.com/design/yI1LaELOh7H02I9dCZZOJo/Workout-Register?node-id=0-1&t=54LAN8i4jmi8Lpqy-1",
+      "status": "In progress"
+    },
+    {
+      "name": "San Ciro",
+      "description": "A web prototype for making reservations on a synthetic football pitch.",
+      "url": "https://www.figma.com/design/HoMryC4FufRwJVqru36dXW/San-Ciro?node-id=0-1&t=90pIXNDtiklIMXPL-1",
+      "status": "In progress"
+    }
+  ],
   "skills": [
     { "name": "Angular" },
     { "name": "TypeScript" },
@@ -128,7 +164,7 @@
     {
       "name": "Google UX Design Professional Certificate",
       "university": "Google",
-      "status": "In process",
+      "status": "In progress",
       "day": "01",
       "month": "01",
       "year": "2100",
@@ -137,7 +173,7 @@
     {
       "name": "Microsoft Power BI Data Analyst Professional Certificate",
       "university": "Microsoft",
-      "status": "In process",
+      "status": "In progress",
       "day": "01",
       "month": "01",
       "year": "2100",
