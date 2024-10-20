@@ -1,18 +1,22 @@
 <div class="body">
-    <h2>{{ 'CODE PROJECTS' | translate }}</h2>
+    <h2>Code Projects</h2>
+    <h2>Proyectos con código</h2>
+    <h2>Projetos de codigo</h2>
     <div class="projects">
-        <div *ngFor="let card of data?.codeProjects; let i = index" class="project-item">
+        <div class="project-item"
+        *ngFor="let card of data?.codeProjects; 
+        let i = index;">
             <div class="card" (click)="navigateTo(card.url)">
                 <p class="index">0{{ i + 1 }}</p>
                 <div>
-                    <img src="/assets/images/codeProjects/{{ card.name | lowercase }}.webp"
-                        alt="{{ card.name | translate }} project preview">
+                    <img src="/assets/images/codeProjects/{{ card.name }}.webp"
+                        alt="{{ card.name }} project preview">
                 </div>
                 <div>
-                    <p class="category">{{ card.category | translate }}</p>
-                    <h3>{{ card.name | translate }}</h3>
-                    <p class="description">{{ card.description | translate }}</p>
-                    <p class="status">{{ card.status | translate }}</p>
+                    <p class="category">{{ card.category }}</p>
+                    <h3>{{ card.name }}</h3>
+                    <p class="description">{{ card.description }}</p>
+                    <p class="status">{{ card.status }}</p>
                 </div>
             </div>
         </div>

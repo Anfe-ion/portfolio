@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { DataService } from '../../../services/data.service';
 import { ServiceComponent } from '../service.component';
-import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-prototypes',
@@ -10,7 +9,7 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class PrototypesComponent extends ServiceComponent {
 
-  constructor(dataService: DataService, translate: TranslateService){
-    super(dataService, translate); 
+  constructor(dataService: DataService){
+    super(dataService); 
   }
 }
