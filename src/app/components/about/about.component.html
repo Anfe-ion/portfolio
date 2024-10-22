@@ -1,6 +1,13 @@
 <div>
-    <h1>
-        Andrés Moncada <span>{{ 'IS' | translate}}</span> {{ 'DEV' | translate}}<span> &</span> {{ 'DESIGNER' | translate}}<span>.</span>
-        <br><span>{{ 'HE' | translate}}</span> {{ 'WCAG' | translate}}<span> {{ 'AND' | translate}}</span> {{ 'INCLUSIVE' | translate}}<span>.</span>
+    <h1 *ngIf="en">
+        Andrés Moncada <span>is a</span> front-end developer<span> &</span> UI Designer<span>. </span>
+        <br>
+        <span>He loves</span> web accesibility<span> and</span> inclusive design<span>.</span>
+    </h1>
+
+    <h1 *ngIf="es">
+        Andrés Moncada <span>es un</span> desarrollador front-end <span> &</span> Diseñador UI<span>. </span>
+        <br>
+        <span>Enamorado de la</span> accesibilidad web<span> y el</span> diseño inclusivo<span>.</span>
     </h1>
 </div>
