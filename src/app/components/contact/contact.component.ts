@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-contact',
@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './contact.component.scss'
 })
 export class ContactComponent {
-
+  @Input() en!: boolean
+  @Input() es!: boolean
+  @Input() pt!: boolean
 }
