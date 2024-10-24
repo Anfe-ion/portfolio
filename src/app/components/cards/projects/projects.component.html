@@ -1,7 +1,7 @@
-<div class="body">
-    <h2>Code Projects</h2>
-    <h2>Proyectos con código</h2>
-    <h2>Projetos de codigo</h2>
+<div class="body" *ngIf="en">
+    <h2 *ngIf="en">Code Projects</h2>
+    <h2 *ngIf="es">Proyectos con código</h2>
+
     <div class="projects">
         <div class="project-item"
         *ngFor="let card of data?.codeProjects; 
