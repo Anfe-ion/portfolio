@@ -11,10 +11,20 @@ export class AppComponent {
 
   constructor(private translate: TranslateService) {
     this.translate.setDefaultLang('en');
-    this.translate.use('en');
-  }
 
-  changeLanguage(lang: string): void {
-    this.translate.use(lang);
+    // Get browser language
+    const browserLang = navigator.language.split('-')[0];
+
+    // Mapping browser language to supported language
+    const supportedLangs: { [key: string]: string } = {
+      'en': 'en',
+      'es': 'es',
+      'pt': 'pt'
+    };
+
+    // Check if the browser language is supported, and use it if so
+    const userLang = supportedLangs[browserLang] || 'en';
+
+    this.translate.use(userLang);
   }
 }
