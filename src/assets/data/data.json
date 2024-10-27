@@ -188,19 +188,23 @@
   "contact": [
     {
       "name": "Linkedin",
-      "url": "https://www.linkedin.com/in/andresfmc/"
+      "url": "https://www.linkedin.com/in/andresfmc/",
+      "isPDF": false
     },
     {
       "name": "Mail",
-      "url": "mailto:andres.moncada.c@gmail.com"
+      "url": "mailto:andres.moncada.c@gmail.com",
+      "isPDF": false
     },
     {
       "name": "Whatsapp",
-      "url": "https://api.whatsapp.com/send/?phone=573192351338&text&type=phone_number&app_absent=0"
+      "url": "https://wa.me/573192351338",
+      "isPDF": false
     },
     {
       "name": "Curriculum vitae",
-      "url": "assets/pdf/Andres_Moncada_EN.pdf"
+      "url": "/assets/pdf/Andres_Moncada_",
+      "isPDF": true
     }
   ]
 }

@@ -1,11 +1,14 @@
 <div class="body">
     <h2>{{ 'contact.title' | translate }}</h2>
+    <a href="../../../../assets/pdf/Andres_Moncada_EN.pdf" target="_blank">PD</a>
     <div class="projects">
+        
         <div *ngFor="let card of data?.contact" class="project-item">
-            <div class="card" (click)="navigateTo(card.url)">
+
+            <div class="card" (click)="redirection(card.url, card.isPDF)">
                 <img src="assets/images/contact/{{card.name}}.webp" alt="{{card.name}} Logo">
             </div>
-            <p class="name" (click)="navigateTo(card.url)">{{card.name}}</p>
+            <p class="name" (click)="redirection(card.url, card.isPDF)">{{card.name}}</p>
         </div>
     </div>
 </div>
