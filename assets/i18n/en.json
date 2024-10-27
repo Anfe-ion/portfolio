@@ -1,0 +1,125 @@
+{
+  "about": {
+    "is-a": "is a",
+    "frontend": "front-end developer",
+    "UI": "UI Designer",
+    "He-loves": "He loves",
+    "WCAG": "web accesibility",
+    "and": "and",
+    "inclusive-design": "inclusive design"
+  },
+
+  "projects": {
+    "title": "Code projects",
+    "yellowCatv1": {
+      "name": "yellowCat v1.0",
+      "description": "A responsive layout for an e-bike store.",
+      "status": "Completed"
+    },
+    "yellowCatv2": {
+      "name": "yellowCat v2.0",
+      "description": "An e-bike store developed with Angular for the frontend and .NET for the backend. It features authentication, security, and administrative roles.",
+      "status": "In progress"
+    }
+  },
+
+  "prototypes": {
+    "title": "Prototypes",
+    "portfolio": {
+      "name": "Portfolio",
+      "description": "The prototype for this web portfolio.",
+      "status": "Completed"
+    },
+    "workout-register": {
+      "name": "Workout Register",
+      "description": "A prototype for an app for gym workout daily register.",
+      "status": "In progress"
+    },
+    "san-ciro": {
+      "name": "San Ciro",
+      "description": "A website for booking slots at a synthetic soccer field.",
+      "status": "In progress"
+    }
+  },
+
+  "education": {
+    "title": "Education",
+    "industrial": {
+      "name": "Industrial Engineer",
+      "status": "Completed"
+    },
+    "developer": {
+      "name": "Technologist in Software Analysis and Development",
+      "status": "Completed"
+    }
+  },
+
+  "certifications": {
+    "title": "Certifications",
+    "english":{
+      "name": "English Certificate (B2 Upper Intermediate)",
+      "status": "Completed"
+    },
+    "programming": {
+      "name": "Beginner in Programming",
+      "status": "Completed"
+    },
+    "frontend": {
+      "name": "Front End Training",
+      "status": "Completed"
+    },
+    "java": {
+      "name": "Java Object-Oriented Training",
+      "status": "Completed"
+    },
+    "sql": {
+      "name": "SQL with SQLServer",
+      "status": "Completed"
+    },
+    "python": {
+      "name": "Python, Data Science in OCI and Oracle Analytics",
+      "status": "Completed"
+    },
+    "databases": {
+      "name": "Introduction to Databases for Back-End Development",
+      "status": "Completed"
+    },
+    "backend": {
+      "name": "Introduction to Back-end Development",
+      "status": "Completed"
+    },
+    "django": {
+      "name": "Django Web Framework",
+      "status": "Completed"
+    },
+    "problems": {
+      "name": "How to Solve Problems and Make Decisions Effectively",
+      "status": "Completed"
+    },
+    "ux": {
+      "name": "Google UX Design Professional Certificate",
+      "status": "In progress"
+    },
+    "bi": {
+      "name": "Microsoft Power BI Data Analyst Professional Certificate",
+      "status": "In progress"
+    }
+  },
+
+  "skills": {
+    "title": "Skills"
+  },
+
+  "nav-bar": {
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "education": "Education",
+    "contact": "Contact"
+  },
+
+  "contact": {
+    "title": "See me on",
+    "ext": "EN.pdf"
+  }
+}

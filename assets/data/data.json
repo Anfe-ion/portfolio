@@ -1,0 +1,210 @@
+{
+  "codeProjects": [
+    {
+      "name": "yellowCatv1",
+      "description": "yellowCatv1.description",
+      "category": "HTML, CSS & JS Vanilla",
+      "url": "https://anfe-ion.github.io/yellowCat/",
+      "status": "yellowCatv1.status",
+      "img": "yellowCat v1.0"
+    },
+    {
+      "name": "yellowCatv2",
+      "description": "yellowCatv2.description",
+      "category": "Angular 17 & .Net",
+      "url": "https://github.com/Anfe-ion/yellowCatv2",
+      "status": "yellowCatv2.status",
+      "img": "yellowCat v2.0"
+    }
+  ],
+  "figmaPrototypes": [
+    {
+      "name": "portfolio",
+      "description": "prototypes.portfolio.description",
+      "url": "https://www.figma.com/design/YRE5yqJrG5qLSnnG79uqkn/Portfolio?node-id=1-2&t=hhzX9GYc1ULTLRsI-1",
+      "status": "prototypes.portfolio.status",
+      "img": "Portfolio"
+    },
+    {
+      "name": "workout-register",
+      "description": "prototypes.workout-register.description",
+      "url": "https://www.figma.com/design/yI1LaELOh7H02I9dCZZOJo/Workout-Register?node-id=0-1&t=54LAN8i4jmi8Lpqy-1",
+      "status": "prototypes.workout-register.status",
+      "img": "Workout Register"
+    },
+    {
+      "name": "san-ciro",
+      "description": "prototypes.san-ciro.description",
+      "url": "https://www.figma.com/design/HoMryC4FufRwJVqru36dXW/San-Ciro?node-id=0-1&t=90pIXNDtiklIMXPL-1",
+      "status": "prototypes.san-ciro.status",
+      "img": "San Ciro"
+    }
+  ],
+    "education": [
+    {
+      "name": "industrial",
+      "status": "education.industrial.status",
+      "img": "ECCI University"
+    },
+    {
+      "name": "developer",
+      "status": "Completed",
+      "img": "SENA"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "english",
+      "university": "EF SET",
+      "status": "certifications.english.status",
+      "day": "23",
+      "month": "01",
+      "year": "2023",
+      "url": "https://cert.efset.org/1E3kLQ"
+    },
+    {
+      "name": "programming",
+      "university": "Alura & Oracle",
+      "status": "certifications.programming.status",
+      "day": "08",
+      "month": "06",
+      "year": "2022",
+      "url": "https://app.aluracursos.com/degree/certificate/856909d8-e8e0-4d64-b7d2-072e8f9e289d"
+    },
+    {
+      "name": "frontend",
+      "university": "Alura & Oracle",
+      "status": "certifications.frontend.status",
+      "day": "28",
+      "month": "07",
+      "year": "2022",
+      "url": "https://app.aluracursos.com/degree/certificate/698317c7-629d-4be3-8af1-8530ffea0f6e"
+    },
+    {
+      "name": "java",
+      "university": "Alura & Oracle",
+      "status": "certifications.java.status",
+      "day": "05",
+      "month": "09",
+      "year": "2022",
+      "url": "https://app.aluracursos.com/degree/certificate/698317c7-629d-4be3-8af1-8530ffea0f6e"
+    },
+    {
+      "name": "sql",
+      "university": "Alura & Oracle",
+      "status": "certifications.sql.status",
+      "day": "14",
+      "month": "12",
+      "year": "2022",
+      "url": "https://app.aluracursos.com/degree/certificate/ac9e9a4f-81ad-43d4-b7af-bf4820430c5e"
+    },
+    {
+      "name": "python",
+      "university": "Alura & Oracle",
+      "status": "certifications.python.status",
+      "day": "04",
+      "month": "01",
+      "year": "2023",
+      "url": "https://app.aluracursos.com/degree/certificate/a409b861-f100-43eb-a636-88b6e0a826e7"
+    },
+    {
+      "name": "databases",
+      "university": "Meta",
+      "status": "certifications.databases.status",
+      "day": "06",
+      "month": "25",
+      "year": "2024",
+      "url": "https://coursera.org/share/813b3e77ecd76ff1d0e5a414403b15d2"
+    },
+    {
+      "name": "backend",
+      "university": "Meta",
+      "status": "certifications.backend.status",
+      "day": "06",
+      "month": "04",
+      "year": "2024",
+      "url": "https://coursera.org/share/10b64527b7e30c7abd209cda3222acd8"
+    },
+    {
+      "name": "django",
+      "university": "Meta",
+      "status": "certifications.django.status",
+      "day": "01",
+      "month": "08",
+      "year": "2024",
+      "url": "https://coursera.org/share/f5aacb367515234fafd0c03e39796d6a"
+    },
+    {
+      "name": "problems",
+      "university": "University of Calofornia",
+      "status": "certifications.problems.status",
+      "day": "17",
+      "month": "06",
+      "year": "2024",
+      "url": "https://coursera.org/share/7afb858dfd454cddffd2150780f2e054"
+    },
+    {
+      "name": "ux",
+      "university": "Google",
+      "status": "certifications.ux.status",
+      "day": "01",
+      "month": "01",
+      "year": "2100",
+      "url": "#"
+    },
+    {
+      "name": "bi",
+      "university": "Microsoft",
+      "status": "certifications.bi.status",
+      "day": "01",
+      "month": "01",
+      "year": "2100",
+      "url": "#"
+    }
+  ],
+  "skills": [
+    { "name": "Angular" },
+    { "name": "TypeScript" },
+    { "name": "JavaScript" },
+    { "name": "CSS3" },
+    { "name": "Sass" },
+    { "name": "MySQL" },
+    { "name": "SQL Server" },
+    { "name": "Git" },
+    { "name": "Github" },
+    { "name": "npm" },
+    { "name": "yarn" },
+    { "name": "WCAG" },
+    { "name": "Figma" },
+    { "name": "Adobe Photoshop" },
+    { "name": "Trello" },
+    { "name": "Jira" },
+    { "name": "Excel" },
+    { "name": "Power BI" },
+    { "name": "PowerPoint" },
+    { "name": "English" },
+    { "name": "Spanish" }
+  ],
+  "contact": [
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/andresfmc/",
+      "isPDF": false
+    },
+    {
+      "name": "Mail",
+      "url": "mailto:andres.moncada.c@gmail.com",
+      "isPDF": false
+    },
+    {
+      "name": "Whatsapp",
+      "url": "https://wa.me/573192351338",
+      "isPDF": false
+    },
+    {
+      "name": "Curriculum vitae",
+      "url": "/assets/pdf/Andres_Moncada_",
+      "isPDF": true
+    }
+  ]
+}
