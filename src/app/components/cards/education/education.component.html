@@ -1,12 +1,12 @@
 <div class="body">
-    <h2>{{ 'EDUCATION' | translate}}</h2>
+    <h2>{{ 'education.title' | translate}}</h2>
     <div class="projects">
         <div *ngFor="let card of data?.education" class="project-item">
             <div class="card">
-                <img src="assets/images/education/{{card.university}}.webp" alt="{{card.university}} Logo">
+                <img src="assets/images/education/{{card.img}}.webp" alt="{{card.img}} Logo">
             </div>
-            <p>{{card.name}}</p>
-            <p class="status">{{card.status}}</p>
+            <p>{{ ('education.' + card.name + '.name') | translate }}</p>
+            <p class="status">{{ ('education.' + card.name + '.status') | translate }}</p>
         </div>
     </div>
 </div>

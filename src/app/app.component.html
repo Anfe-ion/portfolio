@@ -1,12 +1,13 @@
-
-
-<app-about id="about" [en]="en" [es]="es" [pt]="pt"></app-about>
-<app-projects id="projects" [en]="en" [es]="es" [pt]="pt"></app-projects>
-<app-prototypes id="prototypes" [en]="en" [es]="es" [pt]="pt"></app-prototypes>
-<app-education id="education" [en]="en" [es]="es" [pt]="pt"></app-education>
-<app-certifications id="certifications" [en]="en" [es]="es" [pt]="pt"></app-certifications>
+<button (click)="changeLanguage('en')">English</button>
+<button (click)="changeLanguage('es')">Español</button>
+<button (click)="changeLanguage('pt')">Português</button>
+<app-about id="about"></app-about>
+<app-projects id="projects"></app-projects>
+<app-prototypes id="prototypes"></app-prototypes>
 <app-skills id="skills"></app-skills>
-<app-contact id="contact"[en]="en" [es]="es" [pt]="pt"></app-contact>
+<app-education id="education"></app-education>
+<app-certifications id="certifications"></app-certifications>
+<app-contact id="contact"></app-contact>
 <app-navbar></app-navbar>
 
 <router-outlet />

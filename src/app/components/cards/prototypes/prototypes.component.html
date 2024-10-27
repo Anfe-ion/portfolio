@@ -1,17 +1,17 @@
 <div class="body">
-    <h2>{{ 'PROTOTYPES' | translate}}</h2>
+    <h2>{{ 'prototypes.title' | translate}}</h2>
     <div class="projects">
         <div *ngFor="let card of data?.figmaPrototypes; let i = index" class="project-item">
             <div class="card" (click)="navigateTo(card.url)">
                 <p class="index">0{{i + 1}}</p>
                 <div>
-                    <img src="/assets/images/figmaPrototypes/{{card.name}}.webp"
-                        alt="{{card.name}} project previsualization">
+                    <img src="/assets/images/figmaPrototypes/{{ card.img }}.webp"
+                        alt="{{ card.img }} project previsualization">
                 </div>
                 <div>
-                    <h3>{{card.name}}</h3>
-                    <p class="description">{{card.description}}</p>
-                    <p class="status">{{card.status}}</p>
+                    <h3>{{ 'prototypes.' + card.name + '.name' | translate }}</h3>
+                    <p class="description">{{ 'prototypes.' + card.name + '.description' | translate }}</p>
+                    <p class="status">{{ 'prototypes.' + card.name + '.status' | translate }}</p>
                 </div>
             </div>
         </div>

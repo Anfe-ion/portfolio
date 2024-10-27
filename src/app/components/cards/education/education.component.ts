@@ -7,12 +7,7 @@ import { DataService } from '../../../services/data.service';
   templateUrl: './education.component.html',
   styleUrl: './education.component.scss'
 })
-export class EducationComponent extends ServiceComponent {
-
-  @Input() en!: boolean
-  @Input() es!: boolean
-  @Input() pt!: boolean
-  
+export class EducationComponent extends ServiceComponent {  
   constructor(dataService: DataService) {
     super(dataService);
   }

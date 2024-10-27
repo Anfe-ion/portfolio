@@ -1,13 +1,7 @@
 <div>
-    <h1 *ngIf="en">
-        Andrés Moncada <span>is a</span> front-end developer<span> &</span> UI Designer<span>. </span>
+    <h1>
+        Andrés Moncada <span>{{ 'about.is-a' | translate }}</span> {{ 'about.frontend' | translate }}<span> &</span> {{ 'about.UI' | translate }}<span>. </span>
         <br>
-        <span>He loves</span> web accesibility<span> and</span> inclusive design<span>.</span>
-    </h1>
-
-    <h1 *ngIf="es">
-        Andrés Moncada <span>es un</span> desarrollador front-end <span> &</span> Diseñador UI<span>. </span>
-        <br>
-        <span>Enamorado de la</span> accesibilidad web<span> y el</span> diseño inclusivo<span>.</span>
+        <span>{{ 'about.He-loves' | translate }}</span> {{ 'about.WCAG' | translate }}<span> {{ 'about.and' | translate }}</span> {{ 'about.inclusive-design' | translate }}<span>.</span>
     </h1>
 </div>

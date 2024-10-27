@@ -6,13 +6,9 @@ import { DataService } from "../../services/data.service";
 export abstract class ServiceComponent implements OnInit {
 
     data: any
-    ESdata: any
-    PRdata: any
 
     ngOnInit(): void {
         this.getData()
-        this.ESgetData()
-        this.PTgetData()
     }
 
     constructor(protected dataService: DataService) { }
@@ -32,21 +28,6 @@ export abstract class ServiceComponent implements OnInit {
                 });
             }
             this.data = response
-            //console.log(this.data)
-        })
-    }
-
-    ESgetData() {
-        this.dataService.getESdata().subscribe((response) => {
-            this.ESdata = response
-            console.log(this.ESdata)
-        })
-    }
-
-    PTgetData() {
-        this.dataService.getPTdata().subscribe((response) => {
-            this.PRdata = response
-            console.log(this.PRdata)
         })
     }
 

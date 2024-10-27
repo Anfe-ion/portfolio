@@ -1,0 +1,124 @@
+{
+  "about": {
+    "is-a": "es un",
+    "frontend": "desarrollador front-end",
+    "UI": "Diseñador UI",
+    "He-loves": "Apasionado de la",
+    "WCAG": "accesibilidad web",
+    "and": "y del",
+    "inclusive-design": "diseño inclusivo"
+  },
+
+  "projects": {
+    "title": "Proyectos con código",
+    "yellowCatv1": {
+      "name": "yellowCat v1.0",
+      "description": "Maquetación responsiva para una tienda de bicicletas eléctricas.",
+      "status": "Completo"
+    },
+    "yellowCatv2": {
+      "name": "yellowCat v2.0",
+      "description": "Tienda de bicicletas eléctricas desarrollada con Angular para el frontend y .NET para el backend. Incluye autenticación, seguridad y roles administrativos.",
+      "status": "En progreso"
+    }
+  },
+
+  "prototypes": {
+    "title": "Prototipos",
+    "portfolio": {
+      "name": "Portafolio",
+      "description": "El prototipo para este portafolio web.",
+      "status": "Completado"
+    },
+    "workout-register": {
+      "name": "Registro de entrenamiento",
+      "description": "Un prototipo para una aplicación de registro diario de entrenamientos en el gimnasio.",
+      "status": "En progreso"
+    },
+    "san-ciro": {
+      "name": "San Ciro",
+      "description": "Un sitio web para reservar espacios en un campo de fútbol sintético.",
+      "status": "En progreso"
+    }
+  },
+
+  "education": {
+    "title": "Educación",
+    "industrial": {
+      "name": "Ingeniero Industrial",
+      "status": "Completado"
+    },
+    "developer": {
+      "name": "Tecnólogo en Análisis y Desarrollo de Software",
+      "status": "Completado"
+    }
+  },
+
+  "certifications": {
+    "title": "Certificaciones",
+    "english": {
+      "name": "Certificado de Inglés (B2 Intermedio Superior)",
+      "status": "Completado"
+    },
+    "programming": {
+      "name": "Principiante en Programación",
+      "status": "Completado"
+    },
+    "frontend": {
+      "name": "Entrenamiento en Front End",
+      "status": "Completado"
+    },
+    "java": {
+      "name": "Entrenamiento en Programación Orientada a Objetos con Java",
+      "status": "Completado"
+    },
+    "sql": {
+      "name": "SQL con SQLServer",
+      "status": "Completado"
+    },
+    "python": {
+      "name": "Python, Ciencia de Datos en OCI y Oracle Analytics",
+      "status": "Completado"
+    },
+    "databases": {
+      "name": "Introducción a Bases de Datos para Desarrollo Back-End",
+      "status": "Completado"
+    },
+    "backend": {
+      "name": "Introducción al Desarrollo Back-End",
+      "status": "Completado"
+    },
+    "django": {
+      "name": "Framework Web Django",
+      "status": "Completado"
+    },
+    "problems": {
+      "name": "Cómo Resolver Problemas y Tomar Decisiones Efectivamente",
+      "status": "Completado"
+    },
+    "ux": {
+      "name": "Certificado Profesional en Diseño UX de Google",
+      "status": "En progreso"
+    },
+    "bi": {
+      "name": "Certificado Profesional en Análisis de Datos con Microsoft Power BI",
+      "status": "En progreso"
+    }
+  },
+
+  "skills": {
+    "title": "Skills"
+  },
+  
+  "nav-bar": {
+    "about": "Perfil",
+    "projects": "Proyectos",
+    "skills": "Skills",
+    "education": "Educación",
+    "contact": "Contacto"
+  },
+
+  "contact": {
+    "title": "Nos vemos en"
+  }
+}

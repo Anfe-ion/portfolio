@@ -1,0 +1,11 @@
+<div class="body">
+    <h2>{{ 'contact.title' | translate }}</h2>
+    <div class="projects">
+        <div *ngFor="let card of data?.contact" class="project-item">
+            <div class="card" (click)="navigateTo(card.url)">
+                <img src="assets/images/contact/{{card.name}}.webp" alt="{{card.name}} Logo">
+            </div>
+            <p class="name" (click)="navigateTo(card.url)">{{card.name}}</p>
+        </div>
+    </div>
+</div>

@@ -1,38 +1,165 @@
 {
   "codeProjects": [
     {
-      "name": "yellowCat v1.0",
-      "description": "A responsive layout for an e-bike store.",
+      "name": "yellowCatv1",
+      "description": "yellowCatv1.description",
       "category": "HTML, CSS & JS Vanilla",
       "url": "https://anfe-ion.github.io/yellowCat/",
-      "status": "Completed"
+      "status": "yellowCatv1.status",
+      "img": "yellowCat v1.0"
     },
     {
-      "name": "yellowCat v2.0",
-      "description": "An e-bike store developed with Angular for the frontend and .NET for the backend. It features authentication, security, and administrative roles.",
+      "name": "yellowCatv2",
+      "description": "yellowCatv2.description",
       "category": "Angular 17 & .Net",
       "url": "https://github.com/Anfe-ion/yellowCatv2",
-      "status": "In progress"
+      "status": "yellowCatv2.status",
+      "img": "yellowCat v2.0"
     }
   ],
   "figmaPrototypes": [
     {
-      "name": "Portfolio",
-      "description": "The prototype for this web portfolio.",
+      "name": "portfolio",
+      "description": "prototypes.portfolio.description",
       "url": "https://www.figma.com/design/YRE5yqJrG5qLSnnG79uqkn/Portfolio?node-id=1-2&t=hhzX9GYc1ULTLRsI-1",
-      "status": "Completed"
+      "status": "prototypes.portfolio.status",
+      "img": "Portfolio"
     },
     {
-      "name": "Workout Register",
-      "description": "A prototype for an app for gym workout daily register.",
+      "name": "workout-register",
+      "description": "prototypes.workout-register.description",
       "url": "https://www.figma.com/design/yI1LaELOh7H02I9dCZZOJo/Workout-Register?node-id=0-1&t=54LAN8i4jmi8Lpqy-1",
-      "status": "In progress"
+      "status": "prototypes.workout-register.status",
+      "img": "Workout Register"
     },
     {
-      "name": "San Ciro",
-      "description": "A website for booking slots at a synthetic soccer field.",
+      "name": "san-ciro",
+      "description": "prototypes.san-ciro.description",
       "url": "https://www.figma.com/design/HoMryC4FufRwJVqru36dXW/San-Ciro?node-id=0-1&t=90pIXNDtiklIMXPL-1",
-      "status": "In progress"
+      "status": "prototypes.san-ciro.status",
+      "img": "San Ciro"
+    }
+  ],
+    "education": [
+    {
+      "name": "industrial",
+      "status": "education.industrial.status",
+      "img": "ECCI University"
+    },
+    {
+      "name": "developer",
+      "status": "Completed",
+      "img": "SENA"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "english",
+      "university": "EF SET",
+      "status": "certifications.english.status",
+      "day": "23",
+      "month": "01",
+      "year": "2023",
+      "url": "https://cert.efset.org/1E3kLQ"
+    },
+    {
+      "name": "programming",
+      "university": "Alura & Oracle",
+      "status": "certifications.programming.status",
+      "day": "08",
+      "month": "06",
+      "year": "2022",
+      "url": "https://app.aluracursos.com/degree/certificate/856909d8-e8e0-4d64-b7d2-072e8f9e289d"
+    },
+    {
+      "name": "frontend",
+      "university": "Alura & Oracle",
+      "status": "certifications.frontend.status",
+      "day": "28",
+      "month": "07",
+      "year": "2022",
+      "url": "https://app.aluracursos.com/degree/certificate/698317c7-629d-4be3-8af1-8530ffea0f6e"
+    },
+    {
+      "name": "java",
+      "university": "Alura & Oracle",
+      "status": "certifications.java.status",
+      "day": "05",
+      "month": "09",
+      "year": "2022",
+      "url": "https://app.aluracursos.com/degree/certificate/698317c7-629d-4be3-8af1-8530ffea0f6e"
+    },
+    {
+      "name": "sql",
+      "university": "Alura & Oracle",
+      "status": "certifications.sql.status",
+      "day": "14",
+      "month": "12",
+      "year": "2022",
+      "url": "https://app.aluracursos.com/degree/certificate/ac9e9a4f-81ad-43d4-b7af-bf4820430c5e"
+    },
+    {
+      "name": "python",
+      "university": "Alura & Oracle",
+      "status": "certifications.python.status",
+      "day": "04",
+      "month": "01",
+      "year": "2023",
+      "url": "https://app.aluracursos.com/degree/certificate/a409b861-f100-43eb-a636-88b6e0a826e7"
+    },
+    {
+      "name": "databases",
+      "university": "Meta",
+      "status": "certifications.databases.status",
+      "day": "06",
+      "month": "25",
+      "year": "2024",
+      "url": "https://coursera.org/share/813b3e77ecd76ff1d0e5a414403b15d2"
+    },
+    {
+      "name": "backend",
+      "university": "Meta",
+      "status": "certifications.backend.status",
+      "day": "06",
+      "month": "04",
+      "year": "2024",
+      "url": "https://coursera.org/share/10b64527b7e30c7abd209cda3222acd8"
+    },
+    {
+      "name": "django",
+      "university": "Meta",
+      "status": "certifications.django.status",
+      "day": "01",
+      "month": "08",
+      "year": "2024",
+      "url": "https://coursera.org/share/f5aacb367515234fafd0c03e39796d6a"
+    },
+    {
+      "name": "problems",
+      "university": "University of Calofornia",
+      "status": "certifications.problems.status",
+      "day": "17",
+      "month": "06",
+      "year": "2024",
+      "url": "https://coursera.org/share/7afb858dfd454cddffd2150780f2e054"
+    },
+    {
+      "name": "ux",
+      "university": "Google",
+      "status": "certifications.ux.status",
+      "day": "01",
+      "month": "01",
+      "year": "2100",
+      "url": "#"
+    },
+    {
+      "name": "bi",
+      "university": "Microsoft",
+      "status": "certifications.bi.status",
+      "day": "01",
+      "month": "01",
+      "year": "2100",
+      "url": "#"
     }
   ],
   "skills": [
@@ -58,143 +185,22 @@
     { "name": "English" },
     { "name": "Spanish" }
   ],
-  "education": [
-    {
-      "name": "Industrial Engineer",
-      "university": "ECCI University",
-      "status": "Completed"
-    },
-    {
-      "name": "Technologist in Software Analysis and Development",
-      "university": "SENA",
-      "status": "Completed"
-    }
-  ],
-  "certifications": [
-    {
-      "name": "English Certificate (B2 Upper Intermediate)",
-      "university": "EF SET",
-      "status": "Completed",
-      "day": "23",
-      "month": "01",
-      "year": "2023",
-      "url": "https://cert.efset.org/1E3kLQ"
-    },
-    {
-      "name": "Beginner in Programming",
-      "university": "Alura & Oracle",
-      "status": "Completed",
-      "day": "08",
-      "month": "06",
-      "year": "2022",
-      "url": "https://app.aluracursos.com/degree/certificate/856909d8-e8e0-4d64-b7d2-072e8f9e289d"
-    },
-    {
-      "name": "Front End Training",
-      "university": "Alura & Oracle",
-      "status": "Completed",
-      "day": "28",
-      "month": "07",
-      "year": "2022",
-      "url": "https://app.aluracursos.com/degree/certificate/698317c7-629d-4be3-8af1-8530ffea0f6e"
-    },
-    {
-      "name": "Java Object-Oriented Training",
-      "university": "Alura & Oracle",
-      "status": "Completed",
-      "day": "05",
-      "month": "09",
-      "year": "2022",
-      "url": "https://app.aluracursos.com/degree/certificate/698317c7-629d-4be3-8af1-8530ffea0f6e"
-    },
-    {
-      "name": "SQL with SQLServer",
-      "university": "Alura & Oracle",
-      "status": "Completed",
-      "day": "14",
-      "month": "12",
-      "year": "2022",
-      "url": "https://app.aluracursos.com/degree/certificate/ac9e9a4f-81ad-43d4-b7af-bf4820430c5e"
-    },
-    {
-      "name": "Python, Data Science in OCI and Oracle Analytics",
-      "university": "Alura & Oracle",
-      "status": "Completed",
-      "day": "04",
-      "month": "01",
-      "year": "2023",
-      "url": "https://app.aluracursos.com/degree/certificate/a409b861-f100-43eb-a636-88b6e0a826e7"
-    },
-    {
-      "name": "Introduction to Databases for Back-End Development",
-      "university": "Meta",
-      "status": "Completed",
-      "day": "06",
-      "month": "25",
-      "year": "2024",
-      "url": "https://coursera.org/share/813b3e77ecd76ff1d0e5a414403b15d2"
-    },
-    {
-      "name": "Introduction to Back-end Development",
-      "university": "Meta",
-      "status": "Completed",
-      "day": "06",
-      "month": "04",
-      "year": "2024",
-      "url": "https://coursera.org/share/10b64527b7e30c7abd209cda3222acd8"
-    },
-    {
-      "name": "Django Web Framework",
-      "university": "Meta",
-      "status": "Completed",
-      "day": "01",
-      "month": "08",
-      "year": "2024",
-      "url": "https://coursera.org/share/f5aacb367515234fafd0c03e39796d6a"
-    },
-    {
-      "name": "How to Solve Problems and Make Decisions Effectively",
-      "university": "University of Calofornia",
-      "status": "Completed",
-      "day": "17",
-      "month": "06",
-      "year": "2024",
-      "url": "https://coursera.org/share/7afb858dfd454cddffd2150780f2e054"
-    },
-    {
-      "name": "Google UX Design Professional Certificate",
-      "university": "Google",
-      "status": "In progress",
-      "day": "01",
-      "month": "01",
-      "year": "2100",
-      "url": ""
-    },
-    {
-      "name": "Microsoft Power BI Data Analyst Professional Certificate",
-      "university": "Microsoft",
-      "status": "In progress",
-      "day": "01",
-      "month": "01",
-      "year": "2100",
-      "url": ""
-    }
-  ],
   "contact": [
     {
       "name": "Linkedin",
-      "description": "Andrés Moncada",
       "url": "https://www.linkedin.com/in/andresfmc/"
     },
     {
       "name": "Mail",
-      "description": "andres.moncada.c@gmail.com",
       "url": "mailto:andres.moncada.c@gmail.com"
     },
     {
       "name": "Whatsapp",
-      "description": "+57 319 235 1338",
-      "url": "wa.me/573192351338"
+      "url": "https://api.whatsapp.com/send/?phone=573192351338&text&type=phone_number&app_absent=0"
+    },
+    {
+      "name": "Curriculum vitae",
+      "url": "assets/pdf/Andres_Moncada_EN.pdf"
     }
   ]
 }

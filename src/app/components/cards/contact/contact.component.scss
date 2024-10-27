@@ -2,8 +2,15 @@
 
 .body {
   background-color: var(--background) !important;
+  padding-bottom: 5em;
 
-  .card{
+  .card {
     background-color: var(--secondary) !important;
+    cursor: pointer;
+  }
+
+  .name {
+    text-decoration: underline;
+    cursor: pointer;
   }
 }

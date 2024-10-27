@@ -8,7 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AboutComponent } from './components/about/about.component';
-import { ContactComponent } from './components/contact/contact.component';
+import { ContactComponent } from './components/cards/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PrototypesComponent } from './components/cards/prototypes/prototypes.component';
 import { ProjectsComponent } from './components/cards/projects/projects.component';

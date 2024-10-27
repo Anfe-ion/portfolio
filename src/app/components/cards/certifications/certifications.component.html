@@ -1,12 +1,12 @@
 <div class="body">
-    <h2>{{ 'CERTIFICATIONS' | translate}}</h2>
+    <h2>{{ 'certifications.title' | translate}}</h2>
     <div class="projects">
         <div *ngFor="let card of data?.certifications" class="project-item">
             <div class="card" (click)="navigateTo(card.url)">
                 <img src="assets/images/certifications/{{card.university}}.webp" alt="{{card.university}} Logo">
             </div>
-            <p class="name">{{card.name}}</p>
-            <p class="status">{{card.status}}</p>
+            <p class="name" (click)="navigateTo(card.url)">{{ ('certifications.' + card.name + '.name') | translate }}</p>
+            <p class="status">{{ ('certifications.' + card.name + '.status') | translate }}</p>
         </div>
     </div>
 </div>

@@ -1,14 +1,11 @@
 @import url("../basestyles.scss");
 
-.body{
-  background-color: var(--background);
-}
 .card {
-  background-color: var(--secondary) !important;
+  background-color: var(--background) !important;
+  cursor: pointer;
 }
-h3 {
-  padding: 1em;
-}
-.name{
+
+.name {
   text-decoration: underline;
+  cursor: pointer;
 }

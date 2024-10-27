@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-about',
@@ -6,7 +6,4 @@ import { Component, Input } from '@angular/core';
   styleUrl: './about.component.scss'
 })
 export class AboutComponent {
-  @Input() en!: boolean
-  @Input() es!: boolean
-  @Input() pt!: boolean
 }

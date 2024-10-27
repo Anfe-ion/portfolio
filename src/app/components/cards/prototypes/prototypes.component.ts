@@ -8,9 +8,6 @@ import { ServiceComponent } from '../service.component';
   styleUrl: './prototypes.component.scss'
 })
 export class PrototypesComponent extends ServiceComponent {
-  @Input() en!: boolean
-  @Input() es!: boolean
-  @Input() pt!: boolean
 
   constructor(dataService: DataService){
     super(dataService); 

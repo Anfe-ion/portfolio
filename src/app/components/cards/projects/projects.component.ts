@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 import { DataService } from '../../../services/data.service';
 import { ServiceComponent } from '../service.component';
 
@@ -8,10 +8,6 @@ import { ServiceComponent } from '../service.component';
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent extends ServiceComponent {
-
-  @Input() en!: boolean
-  @Input() es!: boolean
-  @Input() pt!: boolean
 
   constructor(dataService: DataService) {
     super(dataService);    
